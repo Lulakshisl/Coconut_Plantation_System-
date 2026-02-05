@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plant Details - Coconut Plantation</title>
+    <link rel="stylesheet" href="plant-details.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div>
+        <a href="home.html">Home</a>
+        <a href="plant-details.html">Plant Details</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero-plant">
+    <div class="hero-text">
+        <h1>Coconut Plant Details</h1>
+        <p>Efficiently manage every coconut plant with our advanced plantation system. Track growth, monitor health, and maintain accurate records for optimal productivity. Our platform empowers farmers and plantation managers with real-time insights, streamlined operations, and professional tools to ensure thriving, sustainable coconut plantations.</p>
+    </div>
+    <div class="hero-image">
+        <img src="images/image7.jpg" alt="Coconut Plants">
+    </div>
+</section>
+
+<!-- ADD / EDIT FORM SECTION -->
+<section class="form-section">
+    <div class="form-card">
+        <h2>Add Plant</h2>
+        <form id="plantForm">
+            <!-- Hidden field for UPDATE -->
+            <input type="hidden" id="plantId">
+
+            <input type="text" id="name" placeholder="Plant Name" required>
+            <input type="text" id="location" placeholder="Location" required>
+            <input type="number" id="age" placeholder="Age (years)" required>
+            <button type="submit">Save Plant</button>
+        </form>
+    </div>
+</section>
+
+<!-- PLANT LIST TABLE -->
+<!--section class="table-section">
+    <div class="table-card">
+        <h2>All Plants</h2>
+        <table id="plantTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Age</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Plants will appear here -->
+            <!--/tbody>
+        </table>
+    </div>
+</section-->
+<br><br>
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h3>🌴 Coconut Plantation</h3>
+            <p>Manage your coconut plants efficiently with our modern system. All your plantation data in one place.</p>
+        </div>
+
+        <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="plant-details.html">Plant Details</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section contact">
+            <h3>Contact</h3>
+            <p>📍 Plantation Road, Sri Lanka</p>
+            <p>📧 info@coconut.com</p>
+            <p>📞 +94 77 123 4567</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        &copy; 2026 Coconut Plantation. All rights reserved.
+    </div>
+</footer>
+
+<script src="plant-details.js"></script>
+</body>
+</html>
